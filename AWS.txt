@@ -1,0 +1,3 @@
+ssh -i /home/vikas/Downloads/DM_key.pem ubuntu@ec2-52-37-166-146.us-west-2.compute.amazonaws.com
+
+scp -i /home/vikas/Downloads/DM_key.pem task2/*  ubuntu@ec2-52-37-166-146.us-west-2.compute.amazonaws.com:~/
